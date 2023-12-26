@@ -141,3 +141,48 @@ h2 {
 }
 
 /** ==============item 6==================  */
+
+#controls,
+#boxes {
+  border-radius: 8px;
+  background: #f6f6fe;
+  padding: 32px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  color: #fff;
+}
+#controls {
+  margin-bottom: 16px;
+}
+#controls input {
+  padding: 8px 72px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+}
+#controls button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: none;
+  color: inherit;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+#controls button:focus,
+#controls button:active,
+#controls button:hover {
+  background: #6c8cff;
+}
+#controls button[data-destroy] {
+  background-color: #ff4e4e;
+}
+#controls button[data-destroy]:focus,
+#controls button[data-destroy]:hover,
+#controls button[data-destroy]:active {
+  background: #ff7070;
+}
+#boxes div {
+  flex-shrink: 0;
+}
