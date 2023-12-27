@@ -156,11 +156,15 @@ h2 {
 #controls {
   margin-bottom: 16px;
 }
-#controls input {
+
+input[type="number"] {
   padding: 8px 72px;
   border-radius: 8px;
   border: 1px solid #808080;
+  font-size: 16px;
+  text-align: center;
 }
+
 #controls button {
   padding: 8px 16px;
   border-radius: 8px;
